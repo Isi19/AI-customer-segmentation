@@ -1,0 +1,501 @@
+household_id,cluster,property_type,construction_age_band,floor_area_m2,insulation_quality,tenure_type,num_occupants,income_band,occupancy_pattern,children_present,heating_type,cooling_system,cooking_fuel,solar_pv,pv_capacity_kwp,ev_ownership
+1,0,apartment,after 2010,69.9,medium,social housing,2,medium,working adults,no,gas boiler,none,gas,no,0.0,no
+2,3,terraced,1945–1970,88.4,poor,social housing,4,high,working adults,no,gas boiler,reversible heat pump,electric,no,0.0,no
+3,6,detached house,1945–1970,133.9,poor,social housing,4,high,retired,yes,gas boiler,none,gas,no,0.0,no
+4,2,detached house,1990–2010,166.0,good,private rental,2,high,mixed,yes,heat pump,reversible heat pump,electric,yes,4.76,no
+5,2,terraced,1945–1970,118.5,medium,owner-occupied,2,high,mixed,no,heat pump,none,electric,no,0.0,no
+6,6,semi-detached,1945–1970,87.5,poor,private rental,2,high,retired,no,gas boiler,none,gas,yes,1.21,no
+7,4,terraced,1990–2010,100.1,medium,owner-occupied,1,high,mixed,no,gas boiler,none,gas,no,0.0,yes
+8,2,apartment,after 2010,64.8,medium,private rental,2,high,working adults,no,heat pump,none,electric,no,0.0,no
+9,3,terraced,1990–2010,114.6,poor,private rental,4,high,working adults,yes,gas boiler,AC unit,gas,no,0.0,no
+10,3,detached house,after 2010,172.0,medium,owner-occupied,2,high,working adults,no,gas boiler,reversible heat pump,electric,yes,3.94,no
+11,6,terraced,1970–1990,97.0,poor,private rental,3,high,working adults,no,gas boiler,none,gas,yes,4.2,no
+12,2,terraced,1945–1970,92.9,poor,owner-occupied,1,high,retired,no,electric heating,none,electric,yes,2.66,yes
+13,0,apartment,before 1945,86.1,poor,owner-occupied,3,high,mixed,yes,gas boiler,none,gas,no,0.0,no
+14,2,apartment,1945–1970,28.0,poor,owner-occupied,2,high,retired,no,heat pump,reversible heat pump,electric,no,0.0,no
+15,4,terraced,1970–1990,111.1,medium,private rental,4,high,students,yes,gas boiler,none,gas,yes,3.43,yes
+16,2,apartment,1970–1990,62.8,medium,private rental,3,high,retired,yes,electric heating,reversible heat pump,electric,no,0.0,no
+17,4,apartment,before 1945,44.0,medium,social housing,3,medium,retired,yes,gas boiler,reversible heat pump,gas,no,0.0,yes
+18,1,detached house,after 2010,157.2,medium,owner-occupied,5,high,working adults,no,heat pump,reversible heat pump,gas,no,0.0,no
+19,0,apartment,1990–2010,70.7,medium,owner-occupied,2,high,students,yes,gas boiler,none,electric,no,0.0,no
+20,6,semi-detached,1945–1970,91.2,poor,owner-occupied,4,high,working adults,yes,gas boiler,none,gas,yes,3.76,no
+21,0,apartment,1990–2010,65.6,medium,private rental,2,high,working adults,no,gas boiler,AC unit,gas,no,0.0,no
+22,5,apartment,1990–2010,50.3,medium,social housing,2,medium,students,no,district heating,none,electric,no,0.0,yes
+23,0,apartment,before 1945,45.8,medium,private rental,3,high,working adults,yes,gas boiler,reversible heat pump,electric,no,0.0,no
+24,2,detached house,1945–1970,166.6,medium,owner-occupied,2,high,working adults,yes,electric heating,none,electric,yes,4.04,no
+25,1,semi-detached,after 2010,87.4,medium,owner-occupied,4,high,students,yes,electric heating,reversible heat pump,gas,yes,1.96,no
+26,0,apartment,1990–2010,28.0,good,owner-occupied,1,high,retired,no,gas boiler,reversible heat pump,gas,no,0.0,no
+27,6,detached house,after 2010,156.5,medium,private rental,4,high,mixed,no,gas boiler,none,gas,no,0.0,no
+28,3,semi-detached,1945–1970,83.3,poor,owner-occupied,2,high,working adults,yes,gas boiler,reversible heat pump,electric,yes,4.21,no
+29,0,apartment,1990–2010,28.0,medium,private rental,1,high,working adults,no,gas boiler,none,gas,no,0.0,no
+30,0,apartment,1970–1990,68.1,poor,private rental,1,high,retired,no,gas boiler,none,electric,no,0.0,no
+31,6,detached house,1970–1990,144.2,good,owner-occupied,1,high,working adults,no,gas boiler,none,gas,no,0.0,no
+32,2,detached house,1990–2010,105.6,good,owner-occupied,3,high,mixed,no,heat pump,reversible heat pump,electric,yes,4.42,no
+33,2,terraced,1990–2010,117.1,good,owner-occupied,2,high,mixed,no,heat pump,reversible heat pump,electric,yes,4.25,no
+34,0,apartment,before 1945,94.8,medium,owner-occupied,3,high,mixed,no,gas boiler,reversible heat pump,gas,yes,1.2,no
+35,6,semi-detached,1970–1990,101.5,poor,owner-occupied,1,high,students,no,gas boiler,none,gas,yes,1.88,no
+36,0,apartment,1970–1990,69.0,medium,owner-occupied,1,high,working adults,no,gas boiler,AC unit,gas,no,0.0,no
+37,4,detached house,1945–1970,87.5,medium,private rental,3,high,working adults,no,gas boiler,reversible heat pump,gas,no,0.0,yes
+38,6,terraced,1990–2010,99.8,medium,owner-occupied,1,high,working adults,no,gas boiler,none,electric,yes,1.48,no
+39,2,apartment,after 2010,93.1,good,private rental,4,high,mixed,yes,heat pump,none,electric,no,0.0,no
+40,2,apartment,after 2010,72.7,good,private rental,3,high,retired,yes,heat pump,reversible heat pump,electric,yes,4.87,no
+41,0,apartment,1990–2010,47.7,good,private rental,3,high,mixed,yes,gas boiler,none,electric,no,0.0,no
+42,0,semi-detached,1990–2010,65.0,good,private rental,3,high,students,no,gas boiler,none,gas,yes,2.28,no
+43,5,apartment,1970–1990,37.0,medium,social housing,3,medium,working adults,no,district heating,none,gas,no,0.0,no
+44,6,detached house,1970–1990,174.6,medium,owner-occupied,3,high,students,yes,gas boiler,none,gas,yes,5.45,no
+45,5,apartment,after 2010,65.4,good,social housing,2,medium,working adults,no,district heating,AC unit,electric,no,0.0,no
+46,5,apartment,after 2010,47.3,poor,private rental,1,high,retired,no,district heating,reversible heat pump,electric,yes,3.98,no
+47,0,apartment,1970–1990,83.7,poor,owner-occupied,2,high,mixed,yes,gas boiler,none,gas,no,0.0,no
+48,0,apartment,1990–2010,49.8,good,owner-occupied,2,high,working adults,no,gas boiler,AC unit,electric,yes,3.92,no
+49,0,apartment,1990–2010,52.8,medium,private rental,2,high,working adults,no,gas boiler,AC unit,gas,no,0.0,no
+50,6,terraced,1990–2010,95.4,poor,owner-occupied,2,high,working adults,no,gas boiler,none,electric,yes,4.21,no
+51,0,terraced,after 2010,81.1,good,owner-occupied,4,high,working adults,no,gas boiler,none,gas,no,0.0,no
+52,2,detached house,1970–1990,108.6,medium,owner-occupied,3,high,retired,yes,heat pump,none,electric,no,0.0,yes
+53,5,apartment,after 2010,51.3,medium,private rental,2,high,working adults,yes,district heating,none,electric,no,0.0,no
+54,0,apartment,1970–1990,62.3,medium,private rental,2,high,students,no,gas boiler,AC unit,electric,yes,3.95,no
+55,4,detached house,after 2010,235.5,medium,private rental,4,high,mixed,yes,gas boiler,none,gas,no,0.0,yes
+56,0,terraced,1990–2010,67.7,medium,owner-occupied,3,high,mixed,yes,gas boiler,AC unit,electric,no,0.0,no
+57,4,detached house,before 1945,130.3,poor,owner-occupied,2,high,working adults,no,gas boiler,reversible heat pump,gas,no,0.0,yes
+58,3,detached house,1990–2010,173.4,medium,social housing,4,high,working adults,yes,gas boiler,AC unit,electric,no,0.0,no
+59,2,apartment,1945–1970,37.2,poor,social housing,3,high,mixed,yes,electric heating,reversible heat pump,electric,yes,4.35,no
+60,6,semi-detached,1945–1970,126.7,medium,private rental,3,high,mixed,yes,gas boiler,none,gas,no,0.0,no
+61,1,terraced,after 2010,93.8,medium,owner-occupied,2,high,working adults,no,heat pump,none,gas,yes,4.19,no
+62,6,semi-detached,before 1945,100.7,medium,private rental,5,high,mixed,yes,gas boiler,none,gas,no,0.0,no
+63,1,apartment,before 1945,69.7,good,social housing,2,medium,working adults,no,heat pump,none,gas,no,0.0,no
+64,1,terraced,before 1945,72.3,poor,private rental,2,high,students,yes,heat pump,none,gas,no,0.0,yes
+65,4,semi-detached,before 1945,116.2,poor,private rental,2,high,working adults,no,gas boiler,reversible heat pump,gas,no,0.0,yes
+66,2,apartment,1990–2010,63.5,medium,social housing,1,medium,mixed,no,heat pump,none,electric,no,0.0,no
+67,3,detached house,1990–2010,102.5,poor,social housing,4,high,students,yes,gas boiler,AC unit,electric,no,0.0,no
+68,0,apartment,before 1945,47.5,poor,private rental,3,high,students,yes,gas boiler,none,electric,yes,3.43,no
+69,2,detached house,after 2010,189.6,good,private rental,2,high,working adults,no,heat pump,reversible heat pump,electric,no,0.0,no
+70,6,detached house,1945–1970,133.7,poor,social housing,1,high,retired,no,gas boiler,none,gas,yes,4.63,no
+71,2,apartment,1945–1970,76.7,poor,owner-occupied,2,high,retired,no,electric heating,reversible heat pump,electric,no,0.0,yes
+72,6,semi-detached,1990–2010,78.5,medium,owner-occupied,5,high,mixed,no,gas boiler,none,gas,yes,4.3,no
+73,6,semi-detached,1945–1970,154.5,poor,owner-occupied,3,high,working adults,no,gas boiler,none,electric,yes,3.99,no
+74,0,terraced,1990–2010,90.7,medium,owner-occupied,4,high,working adults,yes,gas boiler,none,gas,yes,1.21,no
+75,2,apartment,before 1945,101.7,poor,owner-occupied,2,high,working adults,no,heat pump,AC unit,electric,no,0.0,no
+76,2,terraced,1970–1990,79.6,poor,private rental,3,high,mixed,no,electric heating,none,electric,yes,2.59,yes
+77,2,detached house,before 1945,152.8,poor,owner-occupied,4,high,students,yes,heat pump,reversible heat pump,electric,no,0.0,no
+78,1,apartment,1945–1970,88.0,poor,private rental,2,high,students,no,heat pump,AC unit,gas,no,0.0,no
+79,3,terraced,before 1945,89.8,poor,owner-occupied,3,high,working adults,yes,gas boiler,reversible heat pump,gas,yes,3.13,no
+80,0,apartment,1945–1970,58.3,poor,social housing,1,medium,retired,no,gas boiler,AC unit,gas,no,0.0,no
+81,2,apartment,1990–2010,51.0,good,private rental,1,high,students,no,electric heating,reversible heat pump,electric,no,0.0,no
+82,6,terraced,1970–1990,118.3,poor,owner-occupied,5,high,working adults,yes,gas boiler,none,gas,no,0.0,no
+83,4,detached house,1945–1970,137.3,medium,owner-occupied,2,high,retired,no,gas boiler,none,electric,yes,5.08,yes
+84,3,detached house,before 1945,85.0,poor,private rental,3,high,working adults,yes,gas boiler,AC unit,gas,no,0.0,no
+85,5,apartment,1990–2010,88.8,good,owner-occupied,1,high,working adults,no,district heating,AC unit,electric,no,0.0,no
+86,6,detached house,before 1945,153.1,medium,private rental,3,high,working adults,no,gas boiler,none,gas,yes,4.53,no
+87,2,detached house,1970–1990,185.6,poor,owner-occupied,1,high,retired,no,electric heating,reversible heat pump,electric,no,0.0,no
+88,4,semi-detached,1970–1990,130.5,medium,owner-occupied,2,high,students,no,gas boiler,none,electric,no,0.0,yes
+89,0,semi-detached,1945–1970,79.4,medium,private rental,2,high,students,yes,gas boiler,none,electric,no,0.0,no
+90,0,apartment,1990–2010,58.0,medium,owner-occupied,2,high,mixed,no,gas boiler,AC unit,gas,yes,5.44,no
+91,4,semi-detached,before 1945,131.9,good,private rental,2,high,working adults,yes,gas boiler,reversible heat pump,gas,no,0.0,yes
+92,1,apartment,after 2010,59.5,good,private rental,2,high,working adults,no,heat pump,none,gas,no,0.0,no
+93,6,detached house,1945–1970,115.0,poor,owner-occupied,2,high,mixed,no,gas boiler,none,gas,yes,5.49,no
+94,0,apartment,before 1945,50.3,poor,private rental,3,high,working adults,no,gas boiler,AC unit,gas,yes,5.35,no
+95,5,apartment,1945–1970,47.5,poor,private rental,2,high,working adults,no,district heating,none,electric,no,0.0,no
+96,6,apartment,1970–1990,86.5,poor,private rental,2,high,students,no,gas boiler,none,gas,yes,4.14,no
+97,0,apartment,1990–2010,62.6,poor,private rental,1,high,working adults,no,gas boiler,AC unit,gas,no,0.0,no
+98,0,apartment,1945–1970,45.0,poor,private rental,2,high,working adults,no,gas boiler,reversible heat pump,gas,yes,5.31,no
+99,5,apartment,1970–1990,87.7,good,owner-occupied,1,high,working adults,no,district heating,none,electric,no,0.0,no
+100,0,apartment,1945–1970,28.0,medium,private rental,1,high,working adults,no,gas boiler,none,gas,no,0.0,no
+101,6,semi-detached,1990–2010,164.1,medium,private rental,3,high,working adults,no,gas boiler,none,electric,no,0.0,no
+102,6,semi-detached,1970–1990,99.1,poor,owner-occupied,1,high,working adults,no,gas boiler,none,electric,no,0.0,no
+103,0,apartment,before 1945,48.2,medium,owner-occupied,2,high,working adults,no,gas boiler,none,gas,no,0.0,no
+104,5,apartment,before 1945,57.6,poor,private rental,2,high,working adults,yes,district heating,none,electric,no,0.0,no
+105,6,detached house,after 2010,260.0,medium,private rental,2,high,retired,no,gas boiler,none,gas,yes,5.82,no
+106,0,apartment,after 2010,64.0,medium,social housing,1,medium,mixed,no,gas boiler,none,gas,yes,3.11,no
+107,2,semi-detached,1990–2010,94.5,medium,private rental,4,high,working adults,no,heat pump,none,electric,no,0.0,no
+108,4,semi-detached,1970–1990,96.1,poor,private rental,2,high,mixed,no,gas boiler,none,gas,yes,3.63,yes
+109,5,apartment,after 2010,67.8,good,owner-occupied,3,high,working adults,no,district heating,none,electric,no,0.0,no
+110,0,apartment,after 2010,29.7,poor,private rental,2,high,retired,no,gas boiler,none,gas,no,0.0,no
+111,2,apartment,1970–1990,71.8,poor,private rental,3,high,working adults,yes,heat pump,none,electric,no,0.0,no
+112,2,apartment,1945–1970,55.8,good,private rental,3,high,working adults,no,heat pump,none,electric,no,0.0,no
+113,6,semi-detached,1970–1990,160.1,medium,owner-occupied,1,high,retired,no,gas boiler,none,gas,no,0.0,no
+114,0,apartment,1990–2010,85.5,medium,private rental,3,high,working adults,yes,gas boiler,reversible heat pump,gas,no,0.0,no
+115,6,semi-detached,1990–2010,137.5,medium,owner-occupied,1,high,students,no,gas boiler,none,gas,no,0.0,no
+116,0,apartment,1970–1990,77.3,medium,social housing,3,medium,mixed,yes,gas boiler,AC unit,electric,no,0.0,no
+117,3,terraced,before 1945,72.6,poor,owner-occupied,4,high,students,yes,gas boiler,AC unit,gas,yes,2.66,no
+118,2,apartment,after 2010,47.1,medium,private rental,2,high,working adults,no,heat pump,none,electric,no,0.0,no
+119,5,apartment,after 2010,28.0,good,owner-occupied,2,high,working adults,yes,district heating,none,gas,no,0.0,no
+120,0,apartment,1970–1990,91.1,good,owner-occupied,1,high,students,no,gas boiler,none,gas,no,0.0,no
+121,3,terraced,1945–1970,126.8,poor,owner-occupied,5,high,working adults,no,gas boiler,reversible heat pump,electric,yes,3.15,no
+122,3,semi-detached,1990–2010,151.4,good,owner-occupied,3,high,working adults,no,gas boiler,AC unit,electric,yes,2.24,no
+123,2,detached house,before 1945,179.0,good,owner-occupied,1,high,working adults,no,electric heating,none,electric,no,0.0,no
+124,1,apartment,1990–2010,80.8,medium,private rental,2,high,working adults,no,heat pump,none,gas,yes,3.91,no
+125,0,apartment,1990–2010,57.7,medium,owner-occupied,2,high,retired,yes,gas boiler,none,gas,yes,4.66,no
+126,1,terraced,1970–1990,81.7,medium,owner-occupied,2,high,working adults,no,electric heating,none,gas,no,0.0,no
+127,0,apartment,1970–1990,35.4,poor,owner-occupied,2,high,working adults,no,gas boiler,none,electric,no,0.0,no
+128,5,apartment,1945–1970,71.6,good,private rental,2,high,working adults,yes,district heating,none,gas,yes,2.51,no
+129,6,detached house,1990–2010,97.6,medium,owner-occupied,5,high,working adults,yes,gas boiler,none,gas,yes,5.62,no
+130,0,terraced,1970–1990,100.1,good,owner-occupied,1,high,retired,no,gas boiler,none,gas,no,0.0,no
+131,0,terraced,before 1945,76.9,good,owner-occupied,3,high,working adults,no,gas boiler,reversible heat pump,gas,no,0.0,no
+132,0,semi-detached,1990–2010,68.6,poor,owner-occupied,1,high,mixed,no,gas boiler,none,gas,no,0.0,no
+133,2,apartment,after 2010,66.1,good,owner-occupied,1,high,retired,no,heat pump,none,electric,no,0.0,no
+134,0,apartment,after 2010,60.6,medium,owner-occupied,1,high,working adults,no,gas boiler,none,electric,no,0.0,no
+135,1,detached house,1990–2010,105.6,medium,owner-occupied,3,high,retired,yes,heat pump,none,gas,no,0.0,no
+136,1,apartment,after 2010,60.2,medium,private rental,1,high,students,no,heat pump,reversible heat pump,gas,no,0.0,no
+137,3,terraced,1990–2010,89.0,poor,private rental,2,high,retired,no,gas boiler,AC unit,gas,no,0.0,no
+138,0,terraced,1990–2010,94.8,good,owner-occupied,3,high,mixed,yes,gas boiler,none,gas,yes,3.87,no
+139,4,semi-detached,1945–1970,122.3,poor,private rental,2,high,students,no,gas boiler,none,electric,no,0.0,yes
+140,0,apartment,1990–2010,58.7,good,social housing,3,medium,working adults,no,gas boiler,none,electric,no,0.0,no
+141,6,detached house,1945–1970,147.2,poor,owner-occupied,3,high,students,yes,gas boiler,none,gas,yes,4.93,no
+142,3,semi-detached,1970–1990,137.4,poor,owner-occupied,4,high,mixed,no,gas boiler,reversible heat pump,electric,no,0.0,no
+143,5,apartment,before 1945,48.4,poor,owner-occupied,1,high,working adults,no,district heating,none,electric,no,0.0,no
+144,4,apartment,1945–1970,62.4,medium,private rental,1,high,retired,no,gas boiler,AC unit,gas,no,0.0,yes
+145,5,apartment,before 1945,54.8,poor,social housing,2,medium,retired,yes,district heating,none,gas,yes,2.95,no
+146,6,terraced,before 1945,114.6,medium,social housing,1,high,mixed,no,gas boiler,none,gas,no,0.0,no
+147,6,detached house,1945–1970,137.3,poor,owner-occupied,3,high,mixed,yes,gas boiler,none,gas,yes,4.48,no
+148,0,apartment,1945–1970,43.9,medium,social housing,2,high,retired,no,gas boiler,none,gas,no,0.0,no
+149,6,semi-detached,1970–1990,108.4,medium,owner-occupied,3,high,working adults,yes,gas boiler,none,electric,no,0.0,no
+150,6,semi-detached,1970–1990,164.8,good,owner-occupied,1,high,mixed,no,gas boiler,none,electric,no,0.0,no
+151,2,detached house,1970–1990,156.0,medium,owner-occupied,5,high,working adults,no,heat pump,none,electric,no,0.0,no
+152,6,semi-detached,1945–1970,100.1,medium,owner-occupied,4,high,working adults,no,gas boiler,none,gas,yes,6.03,no
+153,2,terraced,1990–2010,91.9,medium,owner-occupied,2,high,working adults,no,heat pump,reversible heat pump,electric,no,0.0,no
+154,0,apartment,1970–1990,65.3,medium,private rental,2,high,working adults,no,gas boiler,AC unit,electric,no,0.0,no
+155,1,terraced,1990–2010,87.5,good,social housing,1,high,working adults,no,electric heating,none,gas,no,0.0,no
+156,4,apartment,1945–1970,55.5,medium,private rental,2,high,working adults,no,gas boiler,none,gas,no,0.0,yes
+157,2,terraced,1970–1990,110.0,poor,owner-occupied,2,high,working adults,no,heat pump,none,electric,no,0.0,yes
+158,4,terraced,1970–1990,98.2,medium,owner-occupied,4,high,mixed,yes,gas boiler,AC unit,gas,no,0.0,yes
+159,4,semi-detached,1970–1990,124.8,medium,owner-occupied,3,high,working adults,yes,gas boiler,none,electric,no,0.0,yes
+160,0,apartment,1990–2010,60.8,medium,private rental,1,high,working adults,no,gas boiler,none,electric,no,0.0,no
+161,6,semi-detached,1970–1990,114.4,medium,private rental,5,high,working adults,no,gas boiler,none,gas,no,0.0,no
+162,0,terraced,after 2010,93.9,medium,owner-occupied,1,high,working adults,no,gas boiler,none,gas,yes,4.52,no
+163,3,detached house,1945–1970,130.5,medium,owner-occupied,4,high,retired,yes,gas boiler,reversible heat pump,gas,no,0.0,no
+164,2,semi-detached,1945–1970,87.1,medium,owner-occupied,3,high,mixed,no,heat pump,reversible heat pump,electric,no,0.0,yes
+165,4,semi-detached,1945–1970,140.4,good,owner-occupied,4,high,working adults,yes,gas boiler,none,gas,no,0.0,yes
+166,1,apartment,after 2010,99.4,medium,owner-occupied,1,high,working adults,no,electric heating,none,gas,no,0.0,no
+167,0,apartment,1990–2010,71.6,poor,owner-occupied,2,high,working adults,no,gas boiler,none,electric,no,0.0,no
+168,6,semi-detached,1990–2010,157.1,good,owner-occupied,1,high,working adults,no,gas boiler,none,gas,yes,3.99,no
+169,2,semi-detached,1990–2010,149.5,medium,social housing,2,high,students,no,heat pump,none,electric,no,0.0,no
+170,6,semi-detached,after 2010,140.7,medium,private rental,5,high,working adults,no,gas boiler,none,electric,no,0.0,no
+171,6,terraced,1945–1970,137.5,medium,owner-occupied,3,high,mixed,yes,gas boiler,none,gas,yes,1.82,no
+172,1,terraced,1970–1990,93.7,medium,owner-occupied,2,high,working adults,no,heat pump,none,gas,no,0.0,no
+173,2,detached house,1990–2010,99.0,medium,owner-occupied,3,high,working adults,no,electric heating,reversible heat pump,electric,yes,4.82,no
+174,2,detached house,1970–1990,153.7,good,owner-occupied,3,high,mixed,yes,heat pump,reversible heat pump,electric,yes,5.54,no
+175,0,apartment,1970–1990,88.6,good,private rental,1,high,retired,no,gas boiler,none,gas,no,0.0,no
+176,0,apartment,before 1945,39.1,good,owner-occupied,2,high,working adults,no,gas boiler,reversible heat pump,gas,no,0.0,no
+177,2,terraced,1970–1990,122.1,medium,social housing,2,medium,retired,no,electric heating,AC unit,electric,no,0.0,no
+178,3,semi-detached,1970–1990,138.7,medium,private rental,3,high,working adults,no,gas boiler,reversible heat pump,electric,no,0.0,no
+179,6,semi-detached,after 2010,138.8,medium,private rental,1,high,students,no,gas boiler,none,electric,no,0.0,no
+180,2,terraced,1945–1970,94.2,medium,owner-occupied,4,high,mixed,yes,heat pump,none,electric,no,0.0,no
+181,6,detached house,1945–1970,237.4,medium,owner-occupied,3,high,working adults,no,gas boiler,none,electric,yes,4.41,no
+182,0,apartment,1945–1970,40.6,poor,private rental,3,medium,working adults,no,gas boiler,AC unit,electric,no,0.0,no
+183,6,terraced,before 1945,92.1,poor,owner-occupied,2,high,working adults,no,gas boiler,none,gas,no,0.0,no
+184,0,apartment,before 1945,80.9,good,owner-occupied,3,high,retired,yes,gas boiler,none,gas,no,0.0,no
+185,2,terraced,after 2010,74.0,good,owner-occupied,1,high,working adults,no,heat pump,reversible heat pump,electric,yes,5.7,yes
+186,2,terraced,after 2010,110.1,good,owner-occupied,3,high,working adults,yes,electric heating,none,electric,no,0.0,no
+187,0,terraced,after 2010,80.1,good,owner-occupied,4,high,students,yes,gas boiler,none,electric,yes,4.1,no
+188,1,semi-detached,1990–2010,137.2,medium,private rental,3,high,mixed,no,electric heating,none,gas,yes,1.93,no
+189,2,apartment,1945–1970,47.2,poor,social housing,1,medium,retired,no,electric heating,none,electric,no,0.0,no
+190,1,semi-detached,before 1945,101.1,poor,owner-occupied,4,high,mixed,yes,heat pump,none,gas,yes,3.88,no
+191,0,apartment,1970–1990,54.6,medium,owner-occupied,2,high,working adults,no,gas boiler,none,electric,yes,1.25,no
+192,1,apartment,1945–1970,66.9,medium,owner-occupied,2,high,mixed,no,electric heating,none,gas,yes,3.8,no
+193,5,apartment,1945–1970,45.5,medium,owner-occupied,2,high,students,no,district heating,reversible heat pump,gas,no,0.0,no
+194,0,apartment,1990–2010,56.6,medium,private rental,1,high,mixed,no,gas boiler,AC unit,gas,no,0.0,no
+195,3,terraced,1945–1970,98.9,medium,owner-occupied,1,high,retired,no,gas boiler,reversible heat pump,gas,no,0.0,no
+196,6,detached house,1990–2010,182.0,medium,owner-occupied,3,high,working adults,yes,gas boiler,none,gas,yes,4.22,no
+197,2,detached house,1945–1970,159.6,medium,private rental,1,high,working adults,no,electric heating,reversible heat pump,electric,yes,3.99,no
+198,1,apartment,before 1945,28.8,good,social housing,1,medium,retired,no,electric heating,none,gas,no,0.0,no
+199,0,terraced,1970–1990,94.3,good,private rental,2,high,working adults,no,gas boiler,reversible heat pump,gas,yes,2.41,no
+200,3,semi-detached,1990–2010,84.9,medium,owner-occupied,5,high,working adults,no,gas boiler,AC unit,gas,no,0.0,no
+201,2,apartment,before 1945,72.1,poor,owner-occupied,2,high,working adults,no,electric heating,none,electric,no,0.0,no
+202,3,semi-detached,1970–1990,189.8,poor,owner-occupied,4,high,mixed,yes,gas boiler,AC unit,gas,no,0.0,no
+203,0,apartment,1970–1990,71.4,poor,private rental,1,high,students,no,gas boiler,none,gas,no,0.0,no
+204,2,apartment,1970–1990,84.2,poor,private rental,1,high,students,no,electric heating,none,electric,yes,4.26,no
+205,2,terraced,before 1945,87.7,poor,social housing,4,high,students,no,electric heating,none,electric,no,0.0,no
+206,1,apartment,1970–1990,54.6,poor,private rental,1,high,working adults,no,heat pump,none,gas,no,0.0,no
+207,5,apartment,1970–1990,79.0,poor,social housing,3,high,retired,yes,district heating,reversible heat pump,electric,no,0.0,no
+208,0,apartment,1945–1970,50.1,medium,owner-occupied,2,high,working adults,no,gas boiler,reversible heat pump,electric,no,0.0,no
+209,6,detached house,1945–1970,85.0,poor,owner-occupied,2,high,working adults,yes,gas boiler,none,gas,no,0.0,no
+210,0,detached house,1990–2010,107.4,good,owner-occupied,2,high,working adults,no,gas boiler,none,gas,no,0.0,no
+211,6,detached house,1945–1970,140.5,good,owner-occupied,2,high,working adults,no,gas boiler,none,electric,no,0.0,no
+212,5,apartment,1945–1970,65.6,good,social housing,2,medium,working adults,no,district heating,AC unit,electric,no,0.0,no
+213,0,apartment,1990–2010,93.6,medium,owner-occupied,2,high,retired,no,gas boiler,reversible heat pump,electric,yes,2.53,no
+214,0,apartment,after 2010,88.5,good,owner-occupied,2,high,working adults,no,gas boiler,none,electric,no,0.0,no
+215,2,terraced,after 2010,109.8,good,private rental,3,high,working adults,yes,electric heating,AC unit,electric,yes,3.08,no
+216,0,apartment,1990–2010,28.0,good,private rental,1,high,working adults,no,gas boiler,none,electric,no,0.0,no
+217,1,detached house,1970–1990,142.5,poor,social housing,1,high,students,no,heat pump,none,gas,no,0.0,yes
+218,0,terraced,1990–2010,80.2,medium,owner-occupied,2,high,students,no,gas boiler,none,electric,yes,3.27,no
+219,6,semi-detached,before 1945,101.4,poor,owner-occupied,2,high,working adults,no,gas boiler,none,gas,no,0.0,no
+220,4,semi-detached,1945–1970,136.2,poor,owner-occupied,5,high,retired,no,gas boiler,none,electric,no,0.0,yes
+221,2,detached house,1990–2010,191.0,medium,owner-occupied,2,high,retired,yes,electric heating,none,electric,no,0.0,yes
+222,4,detached house,1970–1990,119.0,poor,owner-occupied,3,high,working adults,yes,gas boiler,none,gas,no,0.0,yes
+223,0,apartment,1990–2010,74.9,medium,social housing,1,medium,retired,no,gas boiler,none,electric,no,0.0,no
+224,2,detached house,1990–2010,141.5,good,owner-occupied,3,high,working adults,yes,heat pump,none,electric,no,0.0,no
+225,5,apartment,1990–2010,80.4,medium,private rental,2,high,working adults,yes,district heating,reversible heat pump,gas,no,0.0,no
+226,2,apartment,1945–1970,62.8,medium,private rental,2,high,retired,yes,heat pump,none,electric,no,0.0,no
+227,6,detached house,before 1945,93.5,poor,private rental,5,high,mixed,yes,gas boiler,none,electric,yes,6.15,no
+228,1,terraced,1970–1990,75.7,poor,owner-occupied,3,high,students,no,electric heating,reversible heat pump,gas,no,0.0,no
+229,3,detached house,1970–1990,152.1,poor,private rental,3,high,working adults,yes,gas boiler,AC unit,gas,yes,4.42,no
+230,0,apartment,before 1945,70.1,medium,owner-occupied,1,high,retired,no,gas boiler,reversible heat pump,electric,yes,3.19,no
+231,6,detached house,1970–1990,157.2,poor,owner-occupied,4,high,working adults,no,gas boiler,none,gas,yes,5.32,no
+232,4,apartment,1970–1990,67.0,medium,private rental,4,high,retired,yes,gas boiler,AC unit,electric,no,0.0,yes
+233,0,semi-detached,1970–1990,91.5,good,private rental,2,high,mixed,no,gas boiler,reversible heat pump,gas,yes,3.37,no
+234,0,apartment,1945–1970,53.0,good,private rental,3,high,mixed,yes,gas boiler,none,electric,no,0.0,no
+235,0,apartment,1970–1990,72.2,medium,private rental,3,high,working adults,yes,gas boiler,none,gas,no,0.0,no
+236,0,semi-detached,1970–1990,65.0,medium,owner-occupied,4,high,mixed,no,gas boiler,AC unit,gas,no,0.0,no
+237,0,semi-detached,1970–1990,101.0,good,private rental,2,high,mixed,no,gas boiler,none,electric,no,0.0,no
+238,6,apartment,1970–1990,99.7,poor,social housing,2,medium,retired,yes,gas boiler,none,electric,no,0.0,no
+239,2,detached house,1970–1990,196.2,good,owner-occupied,5,high,working adults,yes,heat pump,none,electric,no,0.0,no
+240,0,apartment,after 2010,43.2,medium,private rental,1,high,working adults,no,gas boiler,reversible heat pump,gas,no,0.0,no
+241,2,semi-detached,1945–1970,93.5,poor,private rental,3,high,working adults,no,electric heating,none,electric,no,0.0,yes
+242,6,detached house,1970–1990,133.8,good,owner-occupied,4,high,mixed,no,gas boiler,none,gas,no,0.0,no
+243,6,terraced,1945–1970,66.5,medium,private rental,4,high,mixed,yes,gas boiler,none,electric,no,0.0,no
+244,0,apartment,1990–2010,65.7,medium,owner-occupied,3,high,working adults,no,gas boiler,AC unit,gas,yes,2.1,no
+245,0,apartment,1970–1990,44.3,good,owner-occupied,2,high,mixed,yes,gas boiler,reversible heat pump,gas,no,0.0,no
+246,3,detached house,after 2010,125.0,good,owner-occupied,3,high,working adults,yes,gas boiler,AC unit,gas,no,0.0,no
+247,3,semi-detached,1970–1990,161.5,medium,social housing,2,high,retired,no,gas boiler,reversible heat pump,gas,no,0.0,no
+248,4,terraced,1970–1990,93.7,medium,owner-occupied,4,high,working adults,yes,gas boiler,reversible heat pump,gas,no,0.0,yes
+249,6,apartment,before 1945,94.3,poor,owner-occupied,1,high,working adults,no,gas boiler,none,electric,no,0.0,no
+250,0,apartment,1970–1990,61.1,medium,private rental,2,high,mixed,no,gas boiler,AC unit,electric,yes,4.39,no
+251,2,terraced,1990–2010,65.6,poor,owner-occupied,2,high,working adults,no,electric heating,none,electric,no,0.0,no
+252,6,detached house,1945–1970,166.4,poor,private rental,2,high,working adults,no,gas boiler,none,gas,yes,5.23,no
+253,0,semi-detached,1970–1990,89.6,good,social housing,3,high,retired,no,gas boiler,none,gas,yes,1.2,no
+254,0,semi-detached,1970–1990,67.2,medium,owner-occupied,3,high,students,yes,gas boiler,none,gas,no,0.0,no
+255,2,detached house,1945–1970,163.0,poor,owner-occupied,1,high,working adults,no,heat pump,reversible heat pump,electric,no,0.0,no
+256,2,apartment,after 2010,46.3,good,social housing,3,medium,working adults,yes,heat pump,reversible heat pump,electric,no,0.0,no
+257,3,detached house,1990–2010,151.5,medium,owner-occupied,4,high,working adults,yes,gas boiler,reversible heat pump,electric,yes,4.37,no
+258,2,semi-detached,1990–2010,65.7,medium,owner-occupied,3,high,working adults,no,electric heating,reversible heat pump,electric,yes,3.84,no
+259,2,detached house,1990–2010,131.6,medium,owner-occupied,3,high,working adults,yes,heat pump,none,electric,no,0.0,no
+260,6,detached house,1990–2010,132.5,medium,owner-occupied,3,high,students,no,gas boiler,none,gas,no,0.0,no
+261,2,semi-detached,after 2010,87.7,medium,private rental,3,high,working adults,yes,heat pump,reversible heat pump,electric,yes,3.53,no
+262,6,semi-detached,1945–1970,110.5,medium,owner-occupied,5,high,working adults,yes,gas boiler,none,electric,no,0.0,no
+263,6,detached house,1970–1990,148.4,poor,owner-occupied,1,high,working adults,no,gas boiler,none,gas,no,0.0,no
+264,2,detached house,after 2010,146.6,good,private rental,3,high,working adults,no,heat pump,none,electric,no,0.0,no
+265,0,apartment,1970–1990,76.9,medium,private rental,3,high,retired,no,gas boiler,none,gas,no,0.0,no
+266,2,terraced,1945–1970,70.2,good,owner-occupied,3,high,retired,yes,heat pump,none,electric,no,0.0,no
+267,2,apartment,1970–1990,40.6,poor,private rental,3,high,working adults,yes,heat pump,none,electric,no,0.0,no
+268,1,semi-detached,1945–1970,92.9,medium,owner-occupied,1,high,working adults,no,heat pump,reversible heat pump,gas,yes,3.71,no
+269,0,terraced,before 1945,117.5,medium,private rental,1,high,working adults,no,gas boiler,none,gas,yes,3.85,no
+270,6,terraced,1945–1970,72.2,poor,private rental,1,high,students,no,gas boiler,none,gas,no,0.0,no
+271,5,apartment,1990–2010,52.3,medium,owner-occupied,1,high,retired,no,district heating,none,gas,no,0.0,yes
+272,6,semi-detached,before 1945,97.4,medium,owner-occupied,3,high,working adults,yes,gas boiler,none,gas,yes,5.03,no
+273,1,terraced,1970–1990,72.6,medium,private rental,2,medium,retired,no,electric heating,none,gas,yes,1.31,no
+274,2,apartment,1945–1970,40.0,medium,owner-occupied,1,high,mixed,no,electric heating,AC unit,electric,no,0.0,no
+275,4,semi-detached,1990–2010,112.2,good,owner-occupied,2,high,working adults,yes,gas boiler,reversible heat pump,electric,yes,5.19,yes
+276,2,apartment,1945–1970,60.4,poor,social housing,3,high,mixed,no,heat pump,none,electric,no,0.0,no
+277,2,semi-detached,1945–1970,97.2,poor,private rental,2,high,working adults,no,heat pump,none,electric,yes,4.86,no
+278,3,detached house,before 1945,152.8,poor,private rental,4,high,mixed,yes,gas boiler,AC unit,electric,no,0.0,no
+279,5,apartment,1970–1990,76.2,medium,private rental,2,high,working adults,no,district heating,none,electric,no,0.0,no
+280,1,apartment,1945–1970,61.7,poor,private rental,2,high,working adults,yes,electric heating,none,gas,yes,3.91,no
+281,6,detached house,1970–1990,172.7,medium,owner-occupied,2,high,working adults,no,gas boiler,none,gas,no,0.0,no
+282,0,apartment,1990–2010,77.9,medium,owner-occupied,3,high,retired,no,gas boiler,none,electric,yes,3.64,no
+283,5,apartment,1990–2010,63.7,medium,social housing,2,medium,mixed,no,district heating,none,electric,no,0.0,no
+284,3,semi-detached,1945–1970,105.6,medium,social housing,4,high,retired,no,gas boiler,reversible heat pump,gas,yes,1.52,no
+285,2,apartment,1990–2010,43.6,medium,owner-occupied,4,high,working adults,yes,heat pump,none,electric,no,0.0,no
+286,6,semi-detached,1990–2010,82.3,poor,owner-occupied,4,high,working adults,yes,gas boiler,none,electric,yes,2.7,no
+287,0,semi-detached,1970–1990,89.1,good,owner-occupied,3,high,retired,yes,gas boiler,none,electric,yes,1.79,no
+288,0,apartment,1990–2010,36.9,medium,social housing,3,medium,working adults,yes,gas boiler,AC unit,gas,yes,5.77,no
+289,0,apartment,1945–1970,67.9,medium,owner-occupied,3,high,working adults,yes,gas boiler,none,electric,no,0.0,no
+290,0,apartment,1970–1990,91.9,good,owner-occupied,2,high,working adults,yes,gas boiler,none,electric,no,0.0,no
+291,3,semi-detached,1970–1990,101.0,good,owner-occupied,1,high,working adults,no,gas boiler,AC unit,electric,yes,3.95,no
+292,3,semi-detached,1945–1970,133.1,poor,social housing,3,high,working adults,yes,gas boiler,AC unit,electric,no,0.0,no
+293,2,detached house,before 1945,120.8,poor,owner-occupied,4,high,working adults,yes,heat pump,none,electric,yes,3.93,no
+294,5,apartment,1990–2010,71.7,medium,owner-occupied,2,high,mixed,no,district heating,AC unit,electric,no,0.0,no
+295,4,terraced,1945–1970,89.3,medium,private rental,3,high,mixed,no,gas boiler,none,gas,no,0.0,yes
+296,2,detached house,1945–1970,173.0,poor,social housing,2,high,working adults,no,electric heating,none,electric,no,0.0,no
+297,6,terraced,1990–2010,106.2,medium,private rental,3,high,working adults,yes,gas boiler,none,gas,no,0.0,no
+298,2,detached house,1945–1970,109.8,poor,social housing,5,high,retired,yes,electric heating,none,electric,no,0.0,yes
+299,0,terraced,1990–2010,83.3,medium,private rental,2,high,working adults,yes,gas boiler,reversible heat pump,gas,yes,3.61,no
+300,0,apartment,1970–1990,59.5,poor,owner-occupied,3,high,working adults,yes,gas boiler,none,gas,no,0.0,no
+301,2,apartment,1945–1970,75.2,poor,private rental,3,high,working adults,no,electric heating,none,electric,no,0.0,no
+302,2,semi-detached,1990–2010,158.3,medium,owner-occupied,5,high,mixed,no,electric heating,none,electric,no,0.0,no
+303,4,semi-detached,1970–1990,106.7,poor,owner-occupied,3,high,students,yes,gas boiler,none,gas,no,0.0,yes
+304,0,terraced,1990–2010,91.6,good,owner-occupied,5,high,mixed,yes,gas boiler,none,gas,no,0.0,no
+305,0,apartment,1970–1990,65.4,good,social housing,3,high,working adults,no,gas boiler,reversible heat pump,gas,no,0.0,no
+306,6,detached house,1970–1990,107.1,medium,social housing,3,high,mixed,no,gas boiler,none,gas,yes,4.22,no
+307,2,apartment,after 2010,60.6,good,private rental,1,high,working adults,no,heat pump,reversible heat pump,electric,no,0.0,no
+308,4,terraced,1990–2010,80.2,poor,owner-occupied,3,high,retired,no,gas boiler,AC unit,gas,yes,3.01,yes
+309,1,apartment,after 2010,82.5,good,owner-occupied,1,high,working adults,no,heat pump,none,gas,no,0.0,no
+310,2,terraced,after 2010,109.9,good,owner-occupied,4,high,retired,yes,heat pump,none,electric,no,0.0,no
+311,0,apartment,1990–2010,42.1,medium,private rental,1,high,retired,no,gas boiler,none,electric,no,0.0,no
+312,2,terraced,1990–2010,70.3,medium,owner-occupied,2,high,working adults,no,heat pump,none,electric,no,0.0,yes
+313,2,semi-detached,1990–2010,109.9,good,owner-occupied,2,high,working adults,yes,heat pump,reversible heat pump,electric,yes,4.63,no
+314,2,apartment,1990–2010,45.3,good,social housing,3,medium,working adults,yes,electric heating,reversible heat pump,electric,no,0.0,no
+315,4,terraced,1990–2010,72.5,medium,owner-occupied,1,high,retired,no,gas boiler,AC unit,gas,no,0.0,yes
+316,2,semi-detached,after 2010,85.5,good,owner-occupied,4,high,working adults,yes,electric heating,AC unit,electric,yes,4.17,yes
+317,1,apartment,1970–1990,66.2,poor,owner-occupied,1,high,retired,no,electric heating,none,gas,no,0.0,no
+318,0,semi-detached,after 2010,68.9,good,owner-occupied,4,high,mixed,yes,gas boiler,AC unit,electric,no,0.0,no
+319,5,apartment,1970–1990,80.3,good,owner-occupied,3,high,mixed,no,district heating,reversible heat pump,electric,yes,3.42,no
+320,2,detached house,after 2010,173.0,good,private rental,4,high,working adults,yes,heat pump,none,electric,yes,5.25,no
+321,0,apartment,before 1945,65.5,medium,social housing,3,high,students,yes,gas boiler,none,gas,no,0.0,no
+322,0,terraced,before 1945,77.5,medium,owner-occupied,2,high,working adults,no,gas boiler,reversible heat pump,electric,no,0.0,no
+323,4,semi-detached,1990–2010,97.3,good,social housing,2,high,mixed,no,gas boiler,reversible heat pump,gas,yes,1.82,yes
+324,4,terraced,1970–1990,105.5,good,owner-occupied,2,high,mixed,yes,gas boiler,AC unit,electric,yes,2.78,yes
+325,1,terraced,after 2010,84.1,good,owner-occupied,2,high,working adults,no,electric heating,none,gas,no,0.0,no
+326,2,semi-detached,after 2010,130.4,poor,owner-occupied,2,high,mixed,yes,heat pump,none,electric,no,0.0,no
+327,4,detached house,1990–2010,174.0,medium,social housing,1,high,working adults,no,gas boiler,none,gas,yes,4.43,yes
+328,0,terraced,1990–2010,84.9,medium,private rental,5,high,working adults,no,gas boiler,none,electric,no,0.0,no
+329,4,semi-detached,after 2010,90.6,good,owner-occupied,3,high,mixed,yes,gas boiler,reversible heat pump,gas,no,0.0,yes
+330,2,semi-detached,after 2010,100.0,good,owner-occupied,4,high,mixed,no,heat pump,AC unit,electric,yes,5.21,no
+331,2,semi-detached,1970–1990,143.1,medium,owner-occupied,2,high,working adults,no,electric heating,none,electric,no,0.0,no
+332,2,semi-detached,after 2010,121.4,medium,social housing,4,high,retired,yes,electric heating,none,electric,no,0.0,no
+333,5,apartment,before 1945,54.6,medium,private rental,3,high,working adults,no,district heating,none,gas,no,0.0,no
+334,6,terraced,1970–1990,116.6,medium,private rental,5,high,working adults,yes,gas boiler,none,gas,no,0.0,no
+335,0,apartment,1945–1970,68.5,poor,social housing,2,medium,working adults,yes,gas boiler,none,gas,no,0.0,no
+336,5,apartment,1970–1990,96.6,medium,owner-occupied,2,high,working adults,no,district heating,reversible heat pump,electric,no,0.0,no
+337,0,apartment,1970–1990,51.7,medium,owner-occupied,3,high,working adults,no,gas boiler,none,gas,no,0.0,no
+338,2,detached house,1970–1990,196.3,good,private rental,2,high,students,no,electric heating,none,electric,no,0.0,yes
+339,5,apartment,1990–2010,28.0,good,private rental,2,high,working adults,no,district heating,none,electric,no,0.0,no
+340,1,terraced,1970–1990,74.4,medium,private rental,4,high,working adults,yes,heat pump,reversible heat pump,gas,yes,4.27,no
+341,6,detached house,1970–1990,131.7,poor,owner-occupied,1,high,students,no,gas boiler,none,gas,no,0.0,no
+342,3,semi-detached,1970–1990,127.4,medium,private rental,2,high,retired,yes,gas boiler,AC unit,gas,no,0.0,no
+343,6,terraced,after 2010,101.4,medium,owner-occupied,5,high,working adults,yes,gas boiler,none,electric,no,0.0,no
+344,0,apartment,1970–1990,83.6,good,private rental,2,high,retired,yes,gas boiler,none,gas,yes,1.64,no
+345,2,terraced,1990–2010,76.6,good,private rental,2,high,retired,yes,electric heating,none,electric,no,0.0,no
+346,4,terraced,1990–2010,97.1,medium,owner-occupied,2,high,working adults,no,gas boiler,AC unit,electric,yes,1.25,yes
+347,6,detached house,1945–1970,148.4,poor,owner-occupied,2,high,retired,no,gas boiler,none,gas,no,0.0,no
+348,4,apartment,1970–1990,74.4,good,private rental,2,high,working adults,no,gas boiler,AC unit,gas,yes,4.32,yes
+349,1,detached house,1990–2010,155.4,good,owner-occupied,4,high,working adults,yes,electric heating,none,gas,yes,5.22,no
+350,0,apartment,1990–2010,57.0,medium,private rental,1,high,students,no,gas boiler,none,gas,no,0.0,no
+351,0,terraced,1970–1990,70.7,medium,owner-occupied,3,high,mixed,no,gas boiler,none,gas,yes,4.62,no
+352,2,detached house,1990–2010,111.8,medium,social housing,4,high,retired,yes,heat pump,none,electric,no,0.0,no
+353,6,semi-detached,1945–1970,91.9,poor,owner-occupied,4,high,working adults,yes,gas boiler,none,gas,no,0.0,no
+354,6,apartment,1945–1970,73.2,poor,social housing,4,high,mixed,yes,gas boiler,none,electric,yes,5.78,no
+355,6,semi-detached,1990–2010,113.3,medium,owner-occupied,3,high,mixed,no,gas boiler,none,electric,no,0.0,no
+356,1,apartment,1990–2010,66.8,good,private rental,2,high,working adults,no,electric heating,none,gas,no,0.0,yes
+357,0,apartment,1970–1990,45.4,poor,private rental,1,high,working adults,no,gas boiler,reversible heat pump,gas,no,0.0,no
+358,1,apartment,before 1945,79.8,poor,owner-occupied,3,high,mixed,no,electric heating,AC unit,gas,no,0.0,no
+359,4,semi-detached,1970–1990,133.8,medium,owner-occupied,2,high,mixed,no,gas boiler,AC unit,electric,no,0.0,yes
+360,2,terraced,1990–2010,115.7,medium,owner-occupied,3,high,mixed,yes,electric heating,reversible heat pump,electric,no,0.0,yes
+361,0,apartment,1945–1970,78.2,poor,private rental,3,high,mixed,no,gas boiler,none,electric,no,0.0,no
+362,0,apartment,before 1945,49.4,good,social housing,1,medium,working adults,no,gas boiler,none,gas,no,0.0,no
+363,0,apartment,before 1945,80.4,good,owner-occupied,2,high,working adults,yes,gas boiler,none,electric,yes,3.96,no
+364,3,terraced,after 2010,103.8,medium,social housing,3,high,working adults,no,gas boiler,reversible heat pump,gas,yes,3.45,no
+365,4,apartment,1970–1990,61.6,good,private rental,1,high,retired,no,gas boiler,none,gas,no,0.0,yes
+366,6,semi-detached,1990–2010,123.4,medium,owner-occupied,4,high,working adults,no,gas boiler,none,electric,no,0.0,no
+367,6,semi-detached,after 2010,102.1,medium,owner-occupied,4,high,mixed,no,gas boiler,none,gas,yes,4.79,no
+368,5,apartment,1970–1990,75.6,medium,owner-occupied,2,high,working adults,no,district heating,AC unit,electric,yes,1.65,no
+369,0,apartment,1970–1990,68.4,medium,social housing,3,medium,working adults,no,gas boiler,none,gas,no,0.0,no
+370,4,semi-detached,1990–2010,93.0,poor,owner-occupied,4,high,mixed,yes,gas boiler,none,gas,no,0.0,yes
+371,2,detached house,1970–1990,197.6,medium,owner-occupied,2,high,working adults,no,heat pump,none,electric,yes,5.98,no
+372,5,apartment,1945–1970,59.4,medium,private rental,2,high,working adults,yes,district heating,none,electric,no,0.0,yes
+373,2,apartment,1970–1990,56.8,good,owner-occupied,1,high,working adults,no,heat pump,AC unit,electric,no,0.0,no
+374,3,detached house,1945–1970,181.5,medium,owner-occupied,3,high,working adults,yes,gas boiler,AC unit,gas,no,0.0,no
+375,3,semi-detached,1990–2010,162.7,medium,social housing,2,high,working adults,no,gas boiler,AC unit,electric,no,0.0,no
+376,2,apartment,1970–1990,46.2,good,owner-occupied,1,high,working adults,no,heat pump,reversible heat pump,electric,no,0.0,no
+377,6,semi-detached,1945–1970,149.4,poor,owner-occupied,4,high,mixed,no,gas boiler,none,electric,no,0.0,no
+378,2,semi-detached,1970–1990,76.8,medium,owner-occupied,4,high,students,no,heat pump,reversible heat pump,electric,yes,1.3,no
+379,0,apartment,1945–1970,62.6,good,owner-occupied,1,high,working adults,no,gas boiler,none,electric,no,0.0,no
+380,2,apartment,1970–1990,71.8,medium,social housing,1,medium,working adults,no,electric heating,none,electric,yes,2.68,no
+381,2,semi-detached,before 1945,97.7,poor,social housing,2,high,working adults,no,electric heating,AC unit,electric,yes,4.62,no
+382,3,detached house,1990–2010,178.1,medium,private rental,2,high,working adults,no,gas boiler,reversible heat pump,electric,yes,6.51,no
+383,4,apartment,1970–1990,37.1,poor,social housing,4,medium,working adults,yes,gas boiler,none,gas,no,0.0,yes
+384,6,detached house,before 1945,142.6,good,owner-occupied,1,high,working adults,no,gas boiler,none,gas,no,0.0,no
+385,1,terraced,after 2010,81.5,good,owner-occupied,4,high,working adults,yes,heat pump,none,gas,no,0.0,no
+386,6,semi-detached,after 2010,95.1,medium,owner-occupied,3,high,retired,yes,gas boiler,none,gas,no,0.0,no
+387,2,detached house,1945–1970,159.3,poor,owner-occupied,2,high,students,yes,electric heating,none,electric,no,0.0,no
+388,2,terraced,1945–1970,79.9,poor,owner-occupied,1,high,working adults,no,heat pump,none,electric,yes,2.79,no
+389,3,semi-detached,1970–1990,96.3,poor,owner-occupied,4,high,working adults,yes,gas boiler,AC unit,electric,no,0.0,no
+390,6,terraced,1990–2010,89.4,medium,private rental,3,high,working adults,no,gas boiler,none,gas,yes,3.04,no
+391,6,semi-detached,1990–2010,117.7,good,owner-occupied,4,high,retired,yes,gas boiler,none,gas,yes,3.62,no
+392,0,apartment,1990–2010,83.4,good,owner-occupied,2,high,working adults,no,gas boiler,none,gas,yes,2.43,no
+393,6,terraced,1970–1990,93.2,medium,social housing,4,high,working adults,no,gas boiler,none,gas,yes,1.82,no
+394,3,terraced,1970–1990,122.5,medium,owner-occupied,3,high,mixed,no,gas boiler,reversible heat pump,electric,no,0.0,no
+395,0,apartment,1990–2010,78.8,medium,private rental,2,high,retired,yes,gas boiler,none,gas,no,0.0,no
+396,2,semi-detached,before 1945,72.7,poor,private rental,2,high,working adults,no,electric heating,reversible heat pump,electric,no,0.0,no
+397,2,apartment,before 1945,43.0,poor,owner-occupied,4,high,mixed,no,heat pump,none,electric,no,0.0,no
+398,3,semi-detached,1970–1990,111.8,poor,private rental,3,high,mixed,no,gas boiler,reversible heat pump,gas,no,0.0,no
+399,2,apartment,after 2010,77.7,medium,private rental,2,high,working adults,no,heat pump,reversible heat pump,electric,no,0.0,yes
+400,4,semi-detached,before 1945,97.5,medium,private rental,3,high,retired,no,gas boiler,none,gas,no,0.0,yes
+401,6,semi-detached,1945–1970,100.1,poor,owner-occupied,2,high,working adults,no,gas boiler,none,electric,no,0.0,no
+402,2,apartment,1945–1970,70.6,poor,owner-occupied,2,high,mixed,yes,electric heating,reversible heat pump,electric,no,0.0,no
+403,2,terraced,before 1945,111.7,poor,owner-occupied,3,high,working adults,no,electric heating,none,electric,yes,3.57,no
+404,6,detached house,1990–2010,143.3,medium,owner-occupied,3,high,retired,no,gas boiler,none,electric,no,0.0,no
+405,2,apartment,after 2010,64.9,good,owner-occupied,1,high,students,no,heat pump,reversible heat pump,electric,no,0.0,no
+406,0,apartment,1970–1990,75.1,poor,owner-occupied,4,high,working adults,yes,gas boiler,none,gas,no,0.0,no
+407,0,apartment,before 1945,42.6,poor,private rental,2,high,retired,yes,gas boiler,none,gas,yes,3.11,no
+408,0,apartment,1945–1970,76.0,poor,private rental,2,high,mixed,no,gas boiler,none,gas,no,0.0,no
+409,3,terraced,1945–1970,95.1,poor,owner-occupied,2,high,mixed,no,gas boiler,AC unit,gas,yes,4.05,no
+410,2,terraced,before 1945,87.0,poor,private rental,3,high,students,yes,heat pump,none,electric,no,0.0,no
+411,0,apartment,1945–1970,42.7,medium,owner-occupied,4,high,retired,no,gas boiler,reversible heat pump,gas,yes,3.6,no
+412,2,apartment,before 1945,55.4,poor,owner-occupied,4,high,mixed,no,electric heating,none,electric,no,0.0,no
+413,3,semi-detached,1970–1990,113.1,medium,private rental,2,high,working adults,no,gas boiler,AC unit,electric,no,0.0,no
+414,6,detached house,1945–1970,152.0,poor,private rental,2,high,working adults,yes,gas boiler,none,gas,no,0.0,no
+415,0,apartment,1990–2010,63.7,medium,owner-occupied,2,high,students,no,gas boiler,reversible heat pump,gas,no,0.0,no
+416,4,semi-detached,before 1945,133.7,poor,owner-occupied,2,high,students,no,gas boiler,reversible heat pump,electric,yes,2.17,yes
+417,0,apartment,1970–1990,48.4,medium,private rental,2,high,mixed,yes,gas boiler,none,gas,no,0.0,no
+418,0,apartment,1990–2010,51.8,medium,private rental,1,high,retired,no,gas boiler,none,gas,yes,4.02,no
+419,2,apartment,1990–2010,80.7,medium,private rental,2,high,working adults,yes,heat pump,reversible heat pump,electric,no,0.0,no
+420,6,terraced,1945–1970,114.9,poor,social housing,1,high,working adults,no,gas boiler,none,gas,no,0.0,no
+421,1,semi-detached,1990–2010,105.4,good,private rental,3,high,working adults,yes,heat pump,none,gas,no,0.0,no
+422,3,detached house,1970–1990,155.2,good,private rental,3,high,working adults,yes,gas boiler,reversible heat pump,gas,no,0.0,no
+423,2,apartment,1970–1990,70.1,medium,social housing,1,medium,working adults,no,heat pump,reversible heat pump,electric,no,0.0,no
+424,1,apartment,1970–1990,45.8,medium,owner-occupied,3,high,students,yes,heat pump,reversible heat pump,gas,no,0.0,no
+425,0,apartment,1990–2010,99.6,medium,owner-occupied,2,high,working adults,no,gas boiler,none,gas,no,0.0,no
+426,5,apartment,1970–1990,48.5,medium,private rental,1,high,retired,no,district heating,AC unit,gas,yes,3.05,no
+427,0,apartment,1970–1990,81.4,poor,owner-occupied,2,high,mixed,no,gas boiler,none,gas,yes,3.46,no
+428,0,terraced,1945–1970,68.0,medium,private rental,1,high,retired,no,gas boiler,none,electric,no,0.0,no
+429,2,terraced,1945–1970,99.3,medium,social housing,2,medium,working adults,no,heat pump,reversible heat pump,electric,yes,2.25,no
+430,0,apartment,1970–1990,56.7,poor,social housing,2,medium,mixed,yes,gas boiler,none,gas,no,0.0,no
+431,4,detached house,1970–1990,105.2,poor,social housing,4,high,working adults,yes,gas boiler,reversible heat pump,gas,yes,4.38,yes
+432,2,detached house,1990–2010,146.4,medium,private rental,3,high,mixed,yes,electric heating,reversible heat pump,electric,no,0.0,no
+433,2,apartment,1990–2010,49.1,good,private rental,1,high,retired,no,heat pump,none,electric,no,0.0,no
+434,0,apartment,after 2010,58.0,medium,social housing,1,medium,working adults,no,gas boiler,none,electric,no,0.0,no
+435,2,semi-detached,1945–1970,118.8,good,social housing,3,high,working adults,no,heat pump,reversible heat pump,electric,no,0.0,no
+436,3,apartment,1945–1970,109.6,poor,private rental,2,high,working adults,no,gas boiler,reversible heat pump,gas,yes,2.53,no
+437,6,detached house,1970–1990,177.5,medium,social housing,5,high,mixed,yes,gas boiler,none,electric,no,0.0,no
+438,4,apartment,1990–2010,28.5,medium,owner-occupied,1,high,working adults,no,gas boiler,reversible heat pump,gas,no,0.0,yes
+439,1,detached house,1945–1970,138.0,poor,owner-occupied,2,high,students,no,heat pump,reversible heat pump,gas,no,0.0,no
+440,1,apartment,1970–1990,34.9,medium,private rental,3,high,mixed,yes,heat pump,none,gas,no,0.0,no
+441,3,detached house,1970–1990,136.4,medium,owner-occupied,5,high,working adults,yes,gas boiler,reversible heat pump,gas,no,0.0,no
+442,4,semi-detached,1990–2010,152.4,medium,owner-occupied,1,high,retired,no,gas boiler,AC unit,electric,no,0.0,yes
+443,0,apartment,1945–1970,28.6,poor,private rental,1,high,working adults,no,gas boiler,none,electric,no,0.0,no
+444,6,detached house,1945–1970,175.9,poor,private rental,3,high,working adults,yes,gas boiler,none,gas,yes,5.47,no
+445,0,apartment,1945–1970,70.0,poor,social housing,2,medium,working adults,yes,gas boiler,none,electric,yes,2.83,no
+446,5,apartment,1990–2010,69.9,medium,private rental,1,high,working adults,no,district heating,none,electric,no,0.0,no
+447,2,apartment,before 1945,47.6,poor,social housing,1,medium,students,no,heat pump,reversible heat pump,electric,yes,3.17,no
+448,4,semi-detached,1970–1990,122.2,good,owner-occupied,3,high,working adults,yes,gas boiler,reversible heat pump,gas,yes,3.94,yes
+449,5,apartment,1970–1990,74.6,medium,owner-occupied,2,high,working adults,no,district heating,none,electric,no,0.0,yes
+450,3,semi-detached,1970–1990,137.9,poor,owner-occupied,3,high,working adults,no,gas boiler,reversible heat pump,electric,no,0.0,no
+451,2,terraced,before 1945,115.6,poor,private rental,2,high,working adults,no,heat pump,none,electric,yes,4.26,yes
+452,3,detached house,1970–1990,134.5,poor,owner-occupied,2,high,working adults,no,gas boiler,AC unit,electric,no,0.0,no
+453,1,detached house,1970–1990,170.4,medium,private rental,2,high,working adults,no,heat pump,none,gas,yes,6.61,no
+454,6,semi-detached,1990–2010,88.9,medium,social housing,4,high,students,yes,gas boiler,none,gas,no,0.0,no
+455,3,terraced,1945–1970,85.5,poor,social housing,3,medium,working adults,no,gas boiler,AC unit,gas,no,0.0,no
+456,6,semi-detached,1990–2010,152.5,good,owner-occupied,1,high,retired,no,gas boiler,none,electric,no,0.0,no
+457,2,apartment,after 2010,43.3,good,owner-occupied,2,high,working adults,no,heat pump,AC unit,electric,no,0.0,no
+458,3,detached house,before 1945,183.0,good,owner-occupied,3,high,mixed,no,gas boiler,reversible heat pump,gas,no,0.0,no
+459,3,detached house,1945–1970,172.4,poor,owner-occupied,4,high,working adults,no,gas boiler,reversible heat pump,gas,no,0.0,no
+460,2,semi-detached,1970–1990,141.6,poor,owner-occupied,3,high,working adults,no,electric heating,none,electric,no,0.0,no
+461,2,semi-detached,after 2010,102.9,medium,private rental,3,high,working adults,no,electric heating,none,electric,no,0.0,no
+462,2,terraced,1970–1990,102.1,medium,owner-occupied,1,high,working adults,no,heat pump,reversible heat pump,electric,no,0.0,no
+463,6,detached house,after 2010,155.0,good,owner-occupied,3,high,working adults,no,gas boiler,none,electric,yes,7.7,no
+464,0,apartment,1990–2010,46.6,medium,social housing,1,medium,students,no,gas boiler,none,gas,no,0.0,no
+465,6,semi-detached,before 1945,66.1,poor,owner-occupied,5,high,working adults,no,gas boiler,none,electric,no,0.0,no
+466,2,semi-detached,after 2010,114.3,poor,owner-occupied,2,high,working adults,yes,electric heating,none,electric,no,0.0,no
+467,4,detached house,1945–1970,165.6,poor,private rental,2,high,working adults,yes,gas boiler,none,gas,no,0.0,yes
+468,6,terraced,1970–1990,115.5,poor,owner-occupied,1,high,working adults,no,gas boiler,none,gas,yes,2.55,no
+469,2,semi-detached,1990–2010,89.6,medium,private rental,2,high,working adults,yes,heat pump,none,electric,yes,2.51,no
+470,1,semi-detached,1945–1970,118.9,medium,owner-occupied,3,high,working adults,no,heat pump,none,gas,no,0.0,no
+471,3,detached house,1945–1970,132.4,poor,owner-occupied,1,high,working adults,no,gas boiler,reversible heat pump,gas,no,0.0,no
+472,0,apartment,1945–1970,91.8,medium,owner-occupied,2,high,working adults,yes,gas boiler,none,gas,no,0.0,no
+473,0,apartment,1945–1970,34.4,medium,private rental,2,high,working adults,yes,gas boiler,none,gas,no,0.0,no
+474,0,apartment,before 1945,48.3,medium,social housing,2,medium,mixed,yes,gas boiler,AC unit,electric,no,0.0,no
+475,3,terraced,1990–2010,107.9,poor,owner-occupied,3,high,mixed,no,gas boiler,reversible heat pump,gas,yes,2.98,no
+476,5,apartment,1970–1990,52.4,medium,private rental,4,high,working adults,yes,district heating,AC unit,electric,no,0.0,no
+477,0,apartment,1990–2010,61.0,medium,owner-occupied,2,high,working adults,no,gas boiler,none,electric,no,0.0,no
+478,3,detached house,1970–1990,165.3,good,owner-occupied,3,high,mixed,yes,gas boiler,reversible heat pump,gas,no,0.0,no
+479,3,detached house,after 2010,193.4,good,owner-occupied,4,high,retired,yes,gas boiler,reversible heat pump,gas,yes,4.78,no
+480,2,detached house,after 2010,167.3,good,owner-occupied,2,high,mixed,yes,electric heating,none,electric,yes,4.81,no
+481,6,detached house,1970–1990,115.0,medium,owner-occupied,5,high,working adults,yes,gas boiler,none,gas,yes,6.88,no
+482,2,apartment,1970–1990,44.1,medium,social housing,2,medium,retired,no,heat pump,none,electric,no,0.0,no
+483,4,detached house,before 1945,180.1,poor,social housing,3,high,working adults,yes,gas boiler,reversible heat pump,electric,yes,6.36,yes
+484,3,detached house,1945–1970,157.6,medium,owner-occupied,3,high,working adults,yes,gas boiler,AC unit,gas,no,0.0,no
+485,2,terraced,1990–2010,134.1,good,social housing,2,high,mixed,no,heat pump,none,electric,no,0.0,no
+486,1,terraced,after 2010,63.8,medium,owner-occupied,3,high,students,yes,heat pump,none,gas,yes,2.19,no
+487,0,terraced,after 2010,84.8,medium,owner-occupied,5,high,working adults,no,gas boiler,AC unit,gas,no,0.0,no
+488,3,terraced,1945–1970,119.7,poor,owner-occupied,5,high,mixed,no,gas boiler,reversible heat pump,gas,no,0.0,no
+489,4,detached house,1990–2010,126.3,medium,private rental,3,high,working adults,yes,gas boiler,none,electric,no,0.0,yes
+490,3,semi-detached,1990–2010,123.6,poor,owner-occupied,2,high,students,no,gas boiler,reversible heat pump,electric,no,0.0,no
+491,1,terraced,1990–2010,95.7,medium,private rental,2,high,working adults,no,heat pump,none,gas,no,0.0,no
+492,6,semi-detached,after 2010,151.8,medium,owner-occupied,2,high,mixed,no,gas boiler,none,electric,no,0.0,no
+493,2,detached house,1990–2010,196.6,good,private rental,2,high,mixed,no,electric heating,none,electric,yes,3.1,no
+494,3,apartment,before 1945,92.2,poor,owner-occupied,1,high,working adults,no,gas boiler,reversible heat pump,electric,no,0.0,no
+495,0,apartment,before 1945,68.2,medium,owner-occupied,2,high,working adults,no,gas boiler,none,gas,no,0.0,no
+496,6,terraced,1990–2010,103.6,medium,owner-occupied,4,high,working adults,yes,gas boiler,none,gas,yes,1.96,no
+497,2,apartment,1945–1970,76.0,medium,private rental,2,high,working adults,no,electric heating,AC unit,electric,no,0.0,no
+498,2,terraced,before 1945,110.7,poor,owner-occupied,2,high,retired,no,electric heating,none,electric,yes,4.36,yes
+499,1,apartment,1970–1990,64.3,medium,social housing,1,low,students,no,heat pump,none,gas,no,0.0,no
+500,0,apartment,1990–2010,55.0,good,private rental,3,high,mixed,yes,gas boiler,none,electric,no,0.0,no

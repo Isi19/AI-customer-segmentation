@@ -1,0 +1,29 @@
+{
+  "Energy Domain Expert": {
+    "0": "Gas-Dominant Households",
+    "1": "High-Electricity Users",
+    "2": "Electricity-Only Households",
+    "3": "Gas-Heavy Consumers",
+    "4": "Moderate Gas Users",
+    "5": "Low-Electricity Minimalists",
+    "6": "Gas-Intensive Households"
+  },
+  "Behavioral Analyst": {
+    "0": "Gas-Dominant Family Home",
+    "1": "Electricity-Heavy Tech Users",
+    "2": "Electricity-Centric Households",
+    "3": "Gas-Intensive Households",
+    "4": "Moderate Gas Consumers",
+    "5": "Low Gas, Minimal Electricity",
+    "6": "Gas-Heavy Small Households"
+  },
+  "Data Storyteller": {
+    "0": "Gas-Heavy Households",
+    "1": "Electricity-Driven Homes",
+    "2": "High-Electricity Users",
+    "3": "Gas-Dominant Energy Savers",
+    "4": "Moderate Gas Consumers",
+    "5": "Minimal Energy Users",
+    "6": "Gas-Dependent Households"
+  }
+}
