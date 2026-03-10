@@ -1,5 +1,7 @@
 # Customer Segmentation from Smart-Meter Energy Data
 
+**[Live Demo](https://ai-customer-segmentation-2mfydjmdmfn7hv3rotkxqt.streamlit.app/)**
+
 A hybrid customer segmentation framework that combines **unsupervised clustering** of smart-meter time-series data with a **multi-agent LLM architecture** for automated segment naming and interpretation 
 ## Objective
 
@@ -133,15 +135,12 @@ Customer Segmentation/
 
 ## Deployment
 
-The Streamlit app can be deployed for free on [Streamlit Community Cloud](https://streamlit.io/cloud):
+**Live app:** [ai-customer-segmentation-2mfydjmdmfn7hv3rotkxqt.streamlit.app](https://ai-customer-segmentation-2mfydjmdmfn7hv3rotkxqt.streamlit.app/)
 
-1. Push the repo (including `artifacts/`) to GitHub
-2. Go to [share.streamlit.io](https://share.streamlit.io) → "New app"
-3. Point to `app.py` in your repo
-4. Deploy — no API keys or secrets needed
+Deployed on [Streamlit Community Cloud](https://streamlit.io/cloud). No API keys or secrets needed — the app reads pre-computed artifacts only.
 
 ## Acknowledgements
 
-- Synthetic data generated to simulate patterns observed in UK smart-meter datasets
+- Synthetic data generated to simulate patterns observed in EU smart-meter datasets
 
 
