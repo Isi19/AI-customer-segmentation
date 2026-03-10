@@ -270,7 +270,7 @@ elif page == "Explore a Profile":
                 st.metric(
                     col_name.replace("_", " ").title(),
                     f"{pct:.0f}%",
-                    delta=f"{delta:+.0f}pp vs population",
+                    delta=f"{delta:+.0f} percentage points vs population",
                     delta_color="normal",
                 )
 
