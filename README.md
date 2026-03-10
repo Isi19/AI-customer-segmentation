@@ -11,7 +11,7 @@ This project addresses that gap by:
 2. Applying **K-Means clustering** to identify homogeneous consumption groups
 3. Using a **role-specialized multi-agent LLM pipeline** to generate stable segment names and rich, data-driven profile interpretations
 
-**Key design principle:** Profiles are built from **energy consumption only**. Household metadata (property type, income, heating system, etc.) is brought in *after* clustering to enrich interpretation — never to influence the grouping itself.
+**Key design principle:** Profiles are built from **energy consumption only**. Household metadata (property type, income, heating system, etc.) is brought in *after* clustering to enrich interpretation, never to influence the grouping itself.
 
 ## Results
 
@@ -42,7 +42,7 @@ Five agents collaborate across two stages:
 |-------|------|
 | Interpreter | Produces structured narratives (headline finding, energy pattern, key characteristics, policy implications) |
 
-The interpreter prompt follows the [Nesta energy-use profiles](https://www.nesta.org.uk/report/understanding-gb-energy-consumption-patterns/) report format — each profile includes a bold headline finding, data-driven narrative, distinguishing bullet points, and actionable strategy recommendations.
+The interpreter prompt follows the [Nesta energy-use profiles](https://www.nesta.org.uk/report/understanding-gb-energy-consumption-patterns/) report format , each profile includes a bold headline finding, data-driven narrative, distinguishing bullet points, and actionable strategy recommendations.
 
 ## Notebook Structure
 
