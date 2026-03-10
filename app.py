@@ -11,7 +11,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 
-# ── Page config ──
+# Page config 
 st.set_page_config(
     page_title="Energy-Use Profiles Explorer",
     page_icon="⚡",
@@ -19,7 +19,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-# ── Load artifacts ──
+#  Load artifacts 
 ARTIFACTS = "artifacts"
 
 
@@ -42,7 +42,7 @@ cluster_ids = sorted(llm.keys(), key=int)
 COLORS = px.colors.qualitative.Set2[:n_clusters]
 color_map = {int(cid): COLORS[i] for i, cid in enumerate(cluster_ids)}
 
-# ── Sidebar navigation ──
+#  Sidebar navigation 
 st.sidebar.title("⚡ Energy-Use Profiles")
 page = st.sidebar.radio(
     "Navigate",
@@ -64,7 +64,7 @@ if page == "Overview":
         "Profiles are named and interpreted by a multi-agent LLM pipeline."
     )
 
-    # ── Summary table ──
+    # Summary table 
     summary_rows = []
     for cid in cluster_ids:
         d = llm[cid]
@@ -84,7 +84,7 @@ if page == "Overview":
         hide_index=True,
     )
 
-    # ── Cluster distribution ──
+    # Cluster distribution
     col1, col2 = st.columns(2)
 
     with col1:
@@ -107,7 +107,7 @@ if page == "Overview":
         fig.update_traces(textinfo="percent+label", textposition="inside")
         st.plotly_chart(fig, use_container_width=True)
 
-    # ── Daily consumption comparison ──
+    # Daily consumption comparison
     st.subheader("Average Daily Consumption by Profile")
     col1, col2 = st.columns(2)
 
@@ -129,7 +129,7 @@ if page == "Overview":
         fig.update_layout(showlegend=False)
         st.plotly_chart(fig, use_container_width=True)
 
-    # ── Average daily curves (all profiles) ──
+    # Average daily curves (all profiles)
     st.subheader("Average Daily Consumption Curves")
     fuel = st.radio("Fuel", ["Electricity", "Gas"], horizontal=True, key="overview_fuel")
     col_name = "electricity_kWh" if fuel == "Electricity" else "gas_kWh"
@@ -156,7 +156,7 @@ elif page == "Explore a Profile":
     cid_str = str(selected)
     d = llm[cid_str]
 
-    # ── Header metrics ──
+    #  Header metrics
     st.markdown(f"## Profile {selected} — *{d['name']}*")
     c1, c2, c3, c4 = st.columns(4)
     c1.metric("Households", d["size"])
@@ -164,13 +164,13 @@ elif page == "Explore a Profile":
     c3.metric("Avg Electricity", f"{d['avg_electricity_kwh_day']:.2f} kWh/day")
     c4.metric("Avg Gas", f"{d['avg_gas_kwh_day']:.2f} kWh/day")
 
-    # ── LLM Interpretation ──
+    #  LLM Interpretation
     st.markdown("### Profile Interpretation")
     st.markdown(d["interpretation"])
 
     st.markdown("---")
 
-    # ── Daily consumption curve ──
+    #  Daily consumption curve
     col1, col2 = st.columns(2)
 
     with col1:
@@ -201,7 +201,7 @@ elif page == "Explore a Profile":
         )
         st.plotly_chart(fig, use_container_width=True)
 
-    # ── Radar chart ──
+    #  Radar chart
     with col2:
         st.markdown("### Feature Fingerprint")
         radar_features = [
@@ -233,7 +233,7 @@ elif page == "Explore a Profile":
         )
         st.plotly_chart(fig, use_container_width=True)
 
-    # ── Metadata breakdown ──
+    #  Metadata breakdown
     st.markdown("### Household Characteristics")
     cluster_meta = meta[meta["cluster"] == selected]
 
@@ -256,7 +256,7 @@ elif page == "Explore a Profile":
             fig.update_layout(height=250, margin=dict(l=0, r=0, t=30, b=0), yaxis_title="")
             st.plotly_chart(fig, use_container_width=True)
 
-    # ── Binary features ──
+    #  Binary features
     binary_cols = ["solar_pv", "ev_ownership", "children_present"]
     available_bin = [c for c in binary_cols if c in cluster_meta.columns]
     if available_bin:
@@ -292,7 +292,7 @@ elif page == "Compare Profiles":
     if len(selected_profiles) < 2:
         st.warning("Please select at least 2 profiles to compare.")
     else:
-        # ── Daily curves comparison ──
+        # Daily curves comparison 
         st.subheader("Daily Consumption Curves")
         fuel = st.radio("Fuel", ["Electricity", "Gas"], horizontal=True, key="compare_fuel")
         col_name = "electricity_kWh" if fuel == "Electricity" else "gas_kWh"
@@ -306,7 +306,7 @@ elif page == "Compare Profiles":
         fig.update_layout(xaxis=dict(dtick=2))
         st.plotly_chart(fig, use_container_width=True)
 
-        # ── Radar overlay ──
+        #  Radar overlay
         st.subheader("Feature Fingerprint Comparison")
         radar_features = [
             "avg_daily_electricity_usage", "avg_daily_gas_usage",
@@ -332,7 +332,7 @@ elif page == "Compare Profiles":
         )
         st.plotly_chart(fig, use_container_width=True)
 
-        # ── Side-by-side metadata comparison ──
+        #  Side-by-side metadata comparison
         st.subheader("Metadata Comparison")
         compare_col = st.selectbox(
             "Select characteristic",
