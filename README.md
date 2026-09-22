@@ -44,7 +44,6 @@ Five agents collaborate across two stages:
 |-------|------|
 | Interpreter | Produces structured narratives (headline finding, energy pattern, key characteristics, policy implications) |
 
-The interpreter prompt follows the [Nesta energy-use profiles](https://www.nesta.org.uk/report/understanding-gb-energy-consumption-patterns/) report format , each profile includes a bold headline finding, data-driven narrative, distinguishing bullet points, and actionable strategy recommendations.
 
 ## Notebook Structure
 
