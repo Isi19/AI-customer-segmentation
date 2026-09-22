@@ -53,7 +53,7 @@ Five agents collaborate across two stages:
 | **2. Feature Engineering** | 25+ features: magnitude, time-of-day breakdown, behavioral ratios, seasonality, variability, gas flag |
 | **3. Preprocessing** | Skewness correction (Box-Cox, log1p, sqrt), standardization (StandardScaler), PCA (5 components, 96.95% variance) |
 | **4. Clustering** | Silhouette analysis (K=2–10), K-Means with K=7, cluster profiling, radar charts, metadata cross-tabulation |
-| **5. Agent-Based Interpretation** | OpenAI API (gpt-4o-mini), multi-agent naming consensus, Nesta-style profile interpretations |
+| **5. Agent-Based Interpretation** | OpenAI API (gpt-4o-mini), multi-agent naming consensus, profile interpretations |
 
 ## Data
 
